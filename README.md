@@ -1,6 +1,10 @@
 需要注意的：
-1.RAKEFILE 中 install_homebrew 函数中的命令，务必手动执行，执行完后，将那段执行语注释句
- 
+<br />
+1.RAKEFILE 中 install_homebrew 函数中的命令，务必手动执行，执行完后，将那段执行语句注释，以防重复执行
+<br />
+2.rvm需要事先在系统里面装好，并且指定rvm_path
+<br />
+3.必须事先安装好新版本vim，不然一些vim插件将执行报错。
  
  
  
